@@ -46,4 +46,54 @@ let x3 = (a + 50) * a;
 
 //const twoDecimalPlaces = lotsOfDecimal.toFixed(2); will return a number to 2 decimal places
 
+//JavaScript is dynamically typed, so the variables are not bound to data types
+
+//Number
+let number = 123;
+number = 12.345;
+
+//bigInt is for numbers larger than 2^53-1
+const bigInt = 1234567890123456789012345678901234567890;
+
+//String
+let str = "Hello";
+let str2 = 'Single quotes are okay too.';
+let str3 = `${str}! backticks allow you to embed another variable or operation!`;
+
+//Boolean t/f
+let nameFieldChecked = true;
+let ageFieldChecked = false;
+
+//Null is a special value which represents “nothing”, “empty” or “value unknown”.
+let age = null;
+
+//Undefined is “value is not assigned”.
+
+let eyeColor;
+//alert(age); would show "undefined"
+
+//Object is used to store collections of data and more complex entities.
+
+//Symbol is used to create unique identifiers for objects.
+
+//typeof operator returns the type of the operand
+
+typeof 0; // number
+typeof 10n; // bigint
+typeof true; //boolean
+typeof "foo"; //string
+typeof Symbol("id"); // symbol
+
+//switch(x) {
+//  case 'value1':  // if (x === 'value1')
+//    ...
+//    [break]
+//
+//  case 'value2':  // if (x === 'value2')
+//    ...
+//    [break]
+//
+//  default:
+//    ...
+//    [break]
 
